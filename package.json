@@ -1,0 +1,26 @@
+{
+  "name": "hm-cafe-smart-reservation-system",
+  "version": "1.0.0",
+  "description": "Smart Table Reservation & Live Queue Management System",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "express",
+    "table-reservation",
+    "queue-management",
+    "cafe-system"
+  ],
+  "author": "HM Cafe Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0"
+  }
+}
